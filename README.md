@@ -1,2 +1,2 @@
 # mujuco_rl_ur_learn
-mujuco_rl_ur_learn
+这个仓库用来记录我学习mujuco强化学习的过程
