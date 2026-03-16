@@ -1,0 +1,16 @@
+<!-- ... 前面的代码保持不变 ... -->
+
+<body name="torso" pos="0 0 1.2">
+    <freejoint name="root"/> 
+    <geom name="torso_geom" type="box" size="0.1 0.1 0.2" material="robot_metal"/>
+    <geom name="head" type="sphere" size="0.08" pos="0 0 0.25" rgba="0.8 0.8 0.8 1"/>
+    
+    <!-- 添加站点定义 -->
+    <site name="torso_site" pos="0 0 0" size="0.01"/>
+    
+    <body name="leg" pos="0 0 -0.2">
+        <!-- ... 其余代码 ... -->
+    </body>
+</body>
+
+<!-- ... 后面的代码保持不变 ... -->
